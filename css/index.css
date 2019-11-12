@@ -29,31 +29,36 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+line-height: 1;
+    width: 800px;
+    margin: 0 auto;
+    letter-spacing: 1px; 
     line-height: 1;
-        width: 800px;
-        margin: 0 auto;
-        letter-spacing: 1px; 
-        line-height: 1;
-        /* background: white; */
-        /* text-align: justify; */
-    }
-    .home-top-img{
-        width: 100%;
-        display: flex;
-        align-content: center;
-        border: 0 auto;
-    }
-    .nav{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-    .nav .item{
-        color: gray;
-        font-size: 18px;
-        text-decoration: none;
+    /* background: white; */
+    /* text-align: justify; */
+}
+.home-top-img {
+    width: 96%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 0 auto;
+    border-radius: 6px 12px 18px 24px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.nav .item{
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+item:hover{
+    color: orange;
 }
 ol, ul {
 	list-style: none;
@@ -292,3 +297,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* contaxt Form Stars here */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  .container {
+      border-top: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/* Contact form Ends here */
